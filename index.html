@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Create an input element with type="text" and id="input-el" -->
+    <!-- Create a SAVE INPUT button with id="input-btn" -->
+    <div class="input-group input-group-sm mb-3">
+        <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm" id="input-el">
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary" id="input-btn" onclick="inputURL()">Save Input</button>
+        <button type="button" class="btn btn-success">Get Tab</button>
+        <button type="button" class="btn btn-secondary"onclick="Delet()">Delet</button>
+    </div>
+    <div class="sticky-top" id = "render">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
